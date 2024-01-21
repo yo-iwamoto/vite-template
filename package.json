@@ -3,8 +3,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "format": "biome format --write src",
-    "lint": "biome lint --apply src",
+    "format": "biome format --write .",
+    "lint": "biome lint --apply .",
+    "check": "biome check .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest"
